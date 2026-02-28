@@ -76,6 +76,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="450,124" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Test GIT in local" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Data processing started&quot;]" />
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Dev2 Message Box" sap:VirtualizedContainerService.HintSize="450,109.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;DEV 2 changes done  &quot;]" />
   </Sequence>
 </Activity>
